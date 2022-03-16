@@ -83,3 +83,48 @@ header a {
 .card-container li {
 	padding: 5px 25px ;
 }
+
+@media (max-width: 800px ) {
+	.master-container{
+	display: grid;
+	margin:  0 auto ;
+	/*background-color: #999;*/
+	min-height: 150px;
+	max-width: 600px;
+	width: 100%;
+	grid-template-columns: 1fr 1fr  ;
+	
+	grid-gap: 15px;
+	}
+
+	#main{
+
+	
+	width: 80vw;
+	margin: 0 auto;
+
+
+}
+}
+@media (max-width: 600px ) {
+	.master-container{
+	display: grid;
+	margin:  0 auto ;
+	/*background-color: #999;*/
+	min-height: 150px;
+	max-width: 600px;
+	width: 100%;
+	grid-template-columns: 1fr ;
+	
+	grid-gap: 15px;
+	}
+
+	#main{
+
+	
+	width: 70vw;
+	margin: 0 auto;
+
+
+}
+}
